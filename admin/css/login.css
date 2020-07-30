@@ -1,0 +1,100 @@
+@import"https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+
+body{
+	font-family:Baskerville Old Face;
+	background: rgb(2,0,36);
+	background:black;
+}
+
+.container{
+	border: 2px solid #ca86ca;
+	padding: 10px;
+	border-radius: 15px 50px;
+	background:black;
+	padding:30px 60px;
+	width:35%;
+	height:30%;
+	margin-left: 35%;
+	margin-top:5%;
+}
+
+h2{
+	margin:20px 0px;
+	color:#ca86ca;
+}
+
+.log{
+	margin-top:1%
+}
+
+.form-group{
+	overflow: hidden;
+	color:#ca86ca;
+	width: 100%;
+	font-size: 20px;
+	padding: 4px 0;
+	margin:8px 0;
+	border-bottom: 1px solid #ca86ca;
+	position: relative;
+}
+
+.form{
+	display: inline-flex;
+}
+
+.form-text, h3 {
+		margin-top:20%;
+		font-size:30px;
+		color:orange;
+		animation-name: example;
+		animation-duration: 2s;
+		display: inline-flex;
+		margin-left: 10%;
+	}
+
+	@keyframes example {
+	  0%   {color: #F0C6C1 ;}
+	  25%  {color: #D8FFB8 ;}
+	  50%  {color: #B8E7FF ;}
+	  100% {color: #38BB80 ;}
+	}
+
+i{
+	color: #ca86ca;
+	font-size: 15px;
+	width: 26px;
+	float: left;
+	text-align: center;
+	margin: 7px;
+}
+
+.form-group input{
+	border: none;
+	outline: none;
+	background: none;
+}
+
+a{
+	color: #ca86ca;
+}
+
+a:hover{
+	color:white;
+}
+
+.home{
+	float:right;
+}
+
+.btn{
+	border-radius: 35px;
+	padding: 5px 20px;
+	background:#ca86ca;
+	margin:15px;
+}
+
+@media (max-width:750px){
+.container {
+    width:100%;
+}
+}

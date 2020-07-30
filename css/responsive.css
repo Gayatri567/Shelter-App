@@ -1,0 +1,15 @@
+@media (min-width:768px){
+.menu-list-format >li {
+    padding: 5px;
+}
+}
+@media (max-width:768px){
+.home-about-border {
+    border-left: 0px !important;
+}
+}
+@media (max-width:576px){
+.home-project-section img {
+   width:100%;
+}
+}

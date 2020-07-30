@@ -1,0 +1,296 @@
+*{
+	font-family:Baskerville Old Face;
+}
+
+/*Nav section*/
+.transparent{
+	background: rgba(20,20,20,0.7);
+}
+
+.menu-list-format > li {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-transform: UPPERCASE;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color:orange;
+}
+
+.navbar-dark .navbar-nav .active>.nav-link{
+    color: orange !important;
+}
+
+/*banner section css*/
+.overlay{
+	position: absolute;
+	min-height: 100%;
+	min-width:100%;
+	left: 0;
+    top: 0;
+	background: rgba(0, 0, 0, 0.6)
+}
+
+/*home about css*/
+img.home-about-img{
+	box-shadow: 0 0 27px rgba(0,0,0,0.2);	
+}
+
+.home-about-line-height{
+	line-height:40px;
+}
+
+h2.home-project{
+	color:orange;
+}
+
+h2.home-project > b{
+	color:black;
+}
+
+.center-dots .slick-dots {
+    text-align: center;
+    margin: 20px 0 0;
+}
+.slick-dots {
+    float: left;
+    width: 100%;
+    margin: 30px 0 0;
+}
+.center-dots .slick-dots li {
+    float: none;
+    display: inline-block;
+}
+.slick-dots li {
+    float: right;
+    padding: 0;
+    margin: 0;
+}
+.slick-dots li button {
+    padding: 0; 
+    color: transparent;
+    height: 3px;
+    width: 15px;
+    margin-left: 4px;
+    background: #5e5e5e;
+    border-radius: 0;
+}
+
+.project-name {
+    position: absolute;
+    bottom: 20%;
+}
+
+.project-name h3{
+ background-color:orange;
+ color:white;
+ margin:10px 0px;
+ padding:10px;
+}
+
+.project-name a{
+ background-color:#0000008a;
+ color:white;
+ margin:10px 0px;
+ padding:10px;
+}
+
+.btn-booknow {
+    position:absolute;
+    bottom:-95%;
+    width:100%;
+    left:50%;
+    background:white !important;
+    color:orange !important;
+}
+
+/*Service section*/
+.home-service i {
+    font-size: 50px;
+    text-align: center;
+    padding: 20px;
+    border: 2px solid orange;
+    margin: 30px;
+}
+
+.shelter-event {
+	float: left;
+	width: 100%;
+	margin: 0 0 30px;
+	background: #f2f2f2;
+	text-align: center;
+	padding: 75px 25px;
+	position: relative;
+	overflow: hidden;
+}
+
+.shelter-event:before,
+.shelter-event:after {
+	content: "";
+	width: 80px;
+	height: 80px;
+	background: orange;
+	background-clip: border-box;
+	border: 5px solid rgba(0, 0, 0, 0.1);
+	position: absolute;
+	left: -40px;
+	top: -40px;
+	-webkit-transform: rotateZ(-45deg);
+	-moz-transform: rotateZ(-45deg);
+	-ms-transform: rotateZ(-45deg);
+	-o-transform: rotateZ(-45deg);
+	transform: rotateZ(-45deg);
+	background-clip: content-box;
+}
+
+.shelter-event:after {
+	left: auto;
+	top: auto;
+	right: -40px;
+	bottom: -40px;
+}
+
+.shelter-event:hover:before,
+.shelter-event:hover:after {
+	background-color: black;
+}
+
+
+/*Footer css*/
+footer {
+    background: #080808cc;
+    padding: 40px;
+    text-align: center;
+    color: white;
+}
+
+a{
+	color:orange;
+}
+
+a:hover{
+	color:white;
+}
+
+/*About.css*/
+p.about-description {
+    font-size: 16px;
+    line-height: 2;
+    text-align: justify;
+}
+
+img.about-image {
+    border: 3px solid orange;
+    border-radius: 25px;
+    box-shadow: 0 0 27px rgba(255, 96, 2, 0.17);
+}
+
+.needs-validation .validation {
+    color: red;
+    display: none;
+    margin: 4px 0 20px 0;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+/*project.css*/
+
+
+.image{
+	margin-top:40px;
+}
+
+.project-head{
+	position: absolute;
+    bottom:8%;
+	text-align:center;
+	width:350px;
+	height:10%;
+	padding: 10px 0px 5px 0px;
+	background-color:rgba(255, 255, 255, 0.9);
+	border-bottom:4px solid orange;
+}
+
+.project-a{
+	background-color:orange;
+	color:white;
+	padding:8px 15px;
+	margin-top:20px;
+	left:30%;
+	bottom:-100%;
+	position:relative;
+	text-decoration:none;
+	
+}
+
+/*Service.css*/
+.card{
+	background:rgba(240,240,240,0.2);
+}
+
+.service i {
+    font-size:40px;
+	color:orange;
+    text-align: center;
+    padding: 50px 5px;
+    margin: 30px;
+}
+
+.service-text{
+	text-align:center;
+	text-decoration:none;
+	color:gray;
+	margin-bottom:40px;
+}
+
+
+/*Contact.css*/
+.bread-crumb {
+    padding: 110px;
+    background: #2e2e2e;
+	position:relative;
+}
+.breadcrumbs {
+    position: absolute;
+    left: 44%;
+    bottom: 0;
+    margin: 0;
+    padding: 10px;
+    background: #FFF;
+    list-style:none;
+    -moz-border-radius: 3px 3px 0 0;
+    -ms-border-radius: 3px 3px 0 0;
+    -o-border-radius: 3px 3px 0 0;
+    border-radius: 4px 4px 0 0;    
+}
+.breadcrumbs li{
+   display:inline;  
+   margin:10px;
+}
+
+section.contact{
+	padding-bottom:80px;
+}
+
+span.call-now{
+	color:orange;
+}
+
+.contact a{
+	color:black;
+}
+
+.conatct-form {
+    padding: 35px;
+    background:#f2f5f8;
+    margin: -15px;
+}
+
+.map {
+    margin: -15px;
+}
+
